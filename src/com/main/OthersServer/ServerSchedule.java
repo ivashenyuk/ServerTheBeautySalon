@@ -23,7 +23,7 @@ public class ServerSchedule implements TCPConnectionListener {
             @Override
             public void run() {
                 try (ServerSocket serverSocket = new ServerSocket(Setting.getPortGetSchedule())) {
-                    System.out.println(serverSocket.getLocalSocketAddress());
+                    System.out.println("\t" + serverSocket.getLocalSocketAddress());
                     while (true) {
                         new TCPConnection(ServerSchedule.this, serverSocket.accept());
                     }

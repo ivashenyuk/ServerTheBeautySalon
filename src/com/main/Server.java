@@ -2,6 +2,7 @@ package com.main;
 
 import com.google.gson.Gson;
 import com.main.OthersServer.ServerLogin;
+import com.main.OthersServer.ServerProfit;
 import com.main.OthersServer.ServerSchedule;
 import com.main.OthersServer.ServerWorkers;
 import com.main.TCPConnection;
@@ -16,6 +17,7 @@ public class Server extends Thread implements TCPConnectionListener {
     private ServerLogin loginServer = null;
     private ServerWorkers workersServer;
     private ServerSchedule scheduleServer;
+    private ServerProfit serverProfit;
 
     public Server() {
         System.out.println("Server is running...");
@@ -50,8 +52,10 @@ public class Server extends Thread implements TCPConnectionListener {
             loginServer = new ServerLogin();
         else if (data.equals("getworkers") && workersServer == null)
             workersServer = new ServerWorkers();
-        else if (data.equals("getschedule") && scheduleServer == null);
+        else if (data.equals("getschedule") && scheduleServer == null)
             scheduleServer = new ServerSchedule();
+        else if (data.equals("getprofit") && serverProfit == null)
+            serverProfit = new ServerProfit();
     }
 
     @Override

@@ -1,11 +1,15 @@
 package com.main;
 
 import com.google.gson.Gson;
+import com.main.Data.DataWorker;
 
 import javax.imageio.ImageIO;
+import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.awt.image.ImageProducer;
+import java.awt.image.RenderedImage;
 import java.io.*;
 import java.net.Socket;
 import java.net.SocketException;
@@ -59,13 +63,15 @@ public class TCPConnection {
         }
     }
 
-    public synchronized void Send(String nameWorker, String kingOfServiceWorker, String priceWorker, int idButtonWorker, Image imgWorker) {
-        //System.out.println( new Gson().toJson(imgWorker));
+    public synchronized void Send(String nameWorker, String kingOfServiceWorker, String priceWorker, int idButtonWorker, String imgWorker) {
         try {
-            out.write(nameWorker + "\r\n" + kingOfServiceWorker + "\r\n" + priceWorker + "\r\n" + idButtonWorker + "\r\n" + imgWorker + "\r\n");
-           // Robot bot = new Robot();
-            //BufferedImage bimg = bot.createScreenCapture(new Rectangle(0, 0, 200, 100));
-//            ImageIO.write(bimg, "JPG", (ImageOutputStream) in);
+            out.write(
+                    nameWorker + "\r\n" +
+                            kingOfServiceWorker + "\r\n" +
+                            priceWorker + "\r\n" +
+                            idButtonWorker + "\r\n" +
+                            imgWorker + "\r\n"
+            );
             out.flush();
         } catch (IOException e) {
             this.eventListener.onExeption(TCPConnection.this, e);

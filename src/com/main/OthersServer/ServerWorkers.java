@@ -1,5 +1,6 @@
 package com.main.OthersServer;
 
+import com.google.gson.Gson;
 import com.main.Data.DataWorker;
 import com.main.Setting;
 import com.main.TCPConnection;
@@ -24,7 +25,7 @@ public class ServerWorkers implements TCPConnectionListener {
             @Override
             public void run() {
                 try (ServerSocket serverSocket = new ServerSocket(Setting.getPortGetWorkers())) {
-                    System.out.println(serverSocket.getLocalSocketAddress());
+                    System.out.println("\t" + serverSocket.getLocalSocketAddress());
                     while (true) {
                         tcpConnection = new TCPConnection(ServerWorkers.this, serverSocket.accept());
                     }
@@ -35,12 +36,12 @@ public class ServerWorkers implements TCPConnectionListener {
         });
         thread.setDaemon(true);
         thread.start();
-
     }
 
     @Override
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
+        //System.out.println( new Gson().toJson(DataWorker.encodeToString( dataWorkers.get(0).getImgWorker(), "jpg")));
 
         for (int i = 0; i < dataWorkers.size(); i++) {
             tcpConnection.Send(
@@ -73,11 +74,15 @@ public class ServerWorkers implements TCPConnectionListener {
     }
 
     private void GetWorkers() {
-        dataWorkers.add(new DataWorker("Кондратюк Андрій", "Стоматолог", "200$",1, null));
+        dataWorkers.add(new DataWorker("Кондратюк Андрій", "Стоматолог", "200$", 1, DataWorker.getImage("img2.jpg")));
         dataWorkers.add(new DataWorker());
         dataWorkers.add(new DataWorker());
         dataWorkers.add(new DataWorker());
         dataWorkers.add(new DataWorker());
+        dataWorkers.add(new DataWorker());
+        dataWorkers.add(new DataWorker());
+        dataWorkers.add(new DataWorker());
+
     }
 
 }

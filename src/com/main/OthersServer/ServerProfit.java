@@ -1,31 +1,31 @@
 package com.main.OthersServer;
 
 import com.google.gson.Gson;
-import com.main.Data.DataUser;
+import com.main.Data.DataProfitLine;
+import com.main.Data.DataScheduleLine;
 import com.main.Setting;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
-public class ServerLogin implements TCPConnectionListener {
+public class ServerProfit implements TCPConnectionListener{
     private static final ArrayList<TCPConnection> connections = new ArrayList<TCPConnection>();
-    private TCPConnection tcpConnection = null;
     private Thread thread = null;
-    private DataUser dataUser = new DataUser();
+    private ArrayList<DataProfitLine> listProfit = new ArrayList<DataProfitLine>();
 
-    public ServerLogin() {
-        System.out.println("\tServerLogin is running...");
+    public ServerProfit() {
+        GetSchedule();
+        System.out.println("\tServerProfit is running...");
         thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                try (ServerSocket serverSocket = new ServerSocket(Setting.getPortLogin())) {
-                    System.out.println("\t" + serverSocket.getLocalSocketAddress());
+                try (ServerSocket serverSocket = new ServerSocket(Setting.getPortGetProfit())) {
+                    System.out.println("\t" +serverSocket.getLocalSocketAddress());
                     while (true) {
-                        tcpConnection = new TCPConnection(ServerLogin.this, serverSocket.accept());
+                        new TCPConnection(ServerProfit.this, serverSocket.accept());
                     }
                 } catch (IOException ex) {
                     throw new RuntimeException(ex);
@@ -40,24 +40,14 @@ public class ServerLogin implements TCPConnectionListener {
     @Override
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
-//        for (TCPConnection tcp : connections) {
-//            tcp.Send("s");
-//        }
+
         System.out.println("Added connection.");
+
+        tcpConnection.Send(new Gson().toJson(listProfit));
     }
 
     @Override
     public synchronized void onReceive(TCPConnection tcpConnection, String data) {
-        try {
-            String[] dataUPE = new Gson().fromJson(data, String[].class);
-            if (dataUPE[0].equals(dataUser.getEmailUser()) && dataUPE[1].equals(dataUser.getPassword())) {
-                tcpConnection.Send(new Gson().toJson(dataUser));
-                tcpConnection.Send("true");
-            }
-            //tcpConnection.Disconnect();
-        } catch (Exception e) {
-            e.fillInStackTrace();
-        }
     }
 
     @Override
@@ -70,13 +60,11 @@ public class ServerLogin implements TCPConnectionListener {
         System.out.println("TCPConnection exeption: " + ex);
     }
 
-    private static void SendMsgAllClient(String enemy, int enemyOrUser) {
-
+    private void GetSchedule() {
+        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
+        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
+        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
+        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
     }
-
-    private static void SendMsgAllClientStep() {
-
-    }
-
 
 }
