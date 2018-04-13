@@ -15,7 +15,7 @@ public class ServerLogin implements TCPConnectionListener {
     private static final ArrayList<TCPConnection> connections = new ArrayList<TCPConnection>();
     private TCPConnection tcpConnection = null;
     private Thread thread = null;
-    private DataUser dataUser = new DataUser();
+    public static DataUser dataUser = new DataUser();
 
     public ServerLogin() {
         System.out.println("\tServerLogin is running...");
@@ -34,21 +34,18 @@ public class ServerLogin implements TCPConnectionListener {
         });
         thread.setDaemon(true);
         thread.start();
-
     }
 
     @Override
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
-//        for (TCPConnection tcp : connections) {
-//            tcp.Send("s");
-//        }
-        System.out.println("Added connection.");
+        System.out.println("Added connection. " + tcpConnection.socket.getInetAddress());
     }
 
     @Override
     public synchronized void onReceive(TCPConnection tcpConnection, String data) {
         try {
+            System.out.println(data);
             String[] dataUPE = new Gson().fromJson(data, String[].class);
             if (dataUPE[0].equals(dataUser.getEmailUser()) && dataUPE[1].equals(dataUser.getPassword())) {
                 tcpConnection.Send(new Gson().toJson(dataUser));

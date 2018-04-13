@@ -2,10 +2,10 @@ package com.main.Data;
 
 public class DataUser {
     private int idUser;
-    private String nameUser;
-    private String emailUser;
+    public String nameUser;
+    public String emailUser;
     private String statusUser;
-    private String password;
+    public String password;
 
     public DataUser() {
         this.idUser = -1;

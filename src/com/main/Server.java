@@ -1,10 +1,7 @@
 package com.main;
 
 import com.google.gson.Gson;
-import com.main.OthersServer.ServerLogin;
-import com.main.OthersServer.ServerProfit;
-import com.main.OthersServer.ServerSchedule;
-import com.main.OthersServer.ServerWorkers;
+import com.main.OthersServer.*;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
 
@@ -18,6 +15,7 @@ public class Server extends Thread implements TCPConnectionListener {
     private ServerWorkers workersServer;
     private ServerSchedule scheduleServer;
     private ServerProfit serverProfit;
+    private ServerRegistration registrationServer;
 
     public Server() {
         System.out.println("Server is running...");
@@ -35,27 +33,32 @@ public class Server extends Thread implements TCPConnectionListener {
             }
         });
         thread.start();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        if (loginServer == null)
+            loginServer = new ServerLogin();
+        if (registrationServer == null)
+            registrationServer = new ServerRegistration();
+        if (workersServer == null)
+            workersServer = new ServerWorkers();
+        if (scheduleServer == null)
+            scheduleServer = new ServerSchedule();
+        if (serverProfit == null)
+            serverProfit = new ServerProfit();
     }
 
     @Override
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
-        System.out.println("Added connection.");
-        for (TCPConnection tcp : connections) {
-            tcp.Send("getdata");
-        }
+        System.out.println("Added connection. " + tcpConnection.socket.getInetAddress());
+        tcpConnection.Send("getdata");
     }
 
     @Override
     public synchronized void onReceive(TCPConnection tcpConnection, String data) {
-        if (data.equals("login") && loginServer == null)
-            loginServer = new ServerLogin();
-        else if (data.equals("getworkers") && workersServer == null)
-            workersServer = new ServerWorkers();
-        else if (data.equals("getschedule") && scheduleServer == null)
-            scheduleServer = new ServerSchedule();
-        else if (data.equals("getprofit") && serverProfit == null)
-            serverProfit = new ServerProfit();
     }
 
     @Override
@@ -67,14 +70,4 @@ public class Server extends Thread implements TCPConnectionListener {
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
     }
-
-    private static void SendMsgAllClient(String enemy, int enemyOrUser) {
-
-    }
-
-    private static void SendMsgAllClientStep() {
-
-    }
-
-
 }

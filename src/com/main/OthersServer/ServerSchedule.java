@@ -41,7 +41,7 @@ public class ServerSchedule implements TCPConnectionListener {
     public synchronized void onConnectionReady(TCPConnection tcpConnection) {
         connections.add(tcpConnection);
 
-        System.out.println("Added connection.");
+        System.out.println("Added connection. " + tcpConnection.socket.getInetAddress());
 
         tcpConnection.Send(new Gson().toJson(listSchedule));
     }

@@ -41,11 +41,14 @@ public class TCPConnection {
                         TCPConnection.this.eventListener.onReceive(TCPConnection.this, data);
                     }
                 } catch (SocketException e) {
-                    System.out.println("Client was disconnected!");
+                    System.out.println("Client was disconnected! " + socket.getInetAddress());
                 } catch (IOException e) {
                     e.printStackTrace();
                     rxThread.interrupt();
-                } finally {
+                } catch (NullPointerException ex){
+                    //System.out.println("\n");
+                }
+                finally {
                     TCPConnection.this.eventListener.onDisconnect(TCPConnection.this);
                 }
             }
