@@ -1,4 +1,4 @@
-package com.main.Data;
+package com.main.MyData;
 
 public class DataUser {
     private int idUser;
@@ -6,21 +6,24 @@ public class DataUser {
     public String emailUser;
     private String statusUser;
     public String password;
+    public String secretCode;
 
     public DataUser() {
         this.idUser = -1;
-        this.nameUser = "Івашенюк Юрій";
-        this.emailUser = "yura.ivash@gmail.com";
-        this.statusUser = "admin";
-        this.password = "1111";
+        this.nameUser = "";
+        this.emailUser = "";
+        this.statusUser = "";
+        this.password = "";
+        this.secretCode = "";
     }
 
-    public DataUser(int idUser, String nameUser, String emailUser, String statusUser, String password) {
+    public DataUser(int idUser, String nameUser, String emailUser, String statusUser, String password, String secretCode) {
         this.idUser = idUser;
         this.nameUser = nameUser;
         this.emailUser = emailUser;
         this.statusUser = statusUser;
         this.password = password;
+        this.secretCode = secretCode;
     }
 
     public int getIdUser() {
@@ -41,5 +44,9 @@ public class DataUser {
 
     public String getPassword() {
         return password;
+    }
+
+    public String getSecretCode() {
+        return secretCode;
     }
 }

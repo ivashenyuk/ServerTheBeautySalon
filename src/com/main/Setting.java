@@ -10,6 +10,10 @@ public class Setting {
     private static final int portGetTimeWork = 1361;
     private static final int portGetStatistic = 1362;
     private static final int portGetSchedule = 1363;
+    private static final int portCheck = 1364;
+    private static final int portGetOrders = 1365;
+    private static final int portRestoration = 1366;
+
 
     public static int getPortConnection() {
         return portConnection;
@@ -37,5 +41,14 @@ public class Setting {
     }
     public static int getPortGetSchedule() {
         return portGetSchedule;
+    }
+    public static int getPortCheck() {
+        return portCheck;
+    }
+    public static int getPortGetOrders() {
+        return portGetOrders;
+    }
+    public static int getPortRestoration() {
+        return portRestoration;
     }
 }

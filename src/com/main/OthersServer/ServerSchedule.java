@@ -1,8 +1,9 @@
 package com.main.OthersServer;
 
 import com.google.gson.Gson;
-import com.main.Data.DataScheduleLine;
-import com.main.Data.DataWorker;
+import com.main.MyData.DataBase;
+import com.main.MyData.DataScheduleLine;
+import com.main.Server;
 import com.main.Setting;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
@@ -14,10 +15,11 @@ import java.util.ArrayList;
 public class ServerSchedule implements TCPConnectionListener {
     private static final ArrayList<TCPConnection> connections = new ArrayList<TCPConnection>();
     private Thread thread = null;
-    private final ArrayList<DataScheduleLine> listSchedule = new ArrayList<DataScheduleLine>();
+    private ArrayList<DataScheduleLine> listSchedule = new ArrayList<DataScheduleLine>();
 
     public ServerSchedule() {
-        GetSchedule();
+        DataBase dataBase = Server.getDataBase();
+        listSchedule = dataBase.GetSchedule();
         System.out.println("\tServerSchedule is running...");
         thread = new Thread(new Runnable() {
             @Override
@@ -59,17 +61,4 @@ public class ServerSchedule implements TCPConnectionListener {
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
     }
-
-    private void GetSchedule() {
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Івашенюк", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Стрижка", "Ivasheniuk", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Стрижка", "Пастерук", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Pasteruk", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Pasteruk", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Pasteruk", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Pasteruk", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Pasteruk", "09:00-18:00 Пн-Пт "));
-        listSchedule.add(new DataScheduleLine(0, "Масаж", "Pasteruk", "09:00-18:00 Пн-Пт "));
-    }
-
 }

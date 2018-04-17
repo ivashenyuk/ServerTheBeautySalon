@@ -1,14 +1,14 @@
 package com.main.OthersServer;
 
-import com.google.gson.Gson;
-import com.main.Data.DataWorker;
+import com.main.MyData.DataBase;
+import com.main.MyData.DataWorker;
+import com.main.Server;
 import com.main.Setting;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
 
 import java.io.IOException;
 import java.net.ServerSocket;
-import java.nio.file.Files;
 import java.util.ArrayList;
 
 public class ServerWorkers implements TCPConnectionListener {
@@ -17,7 +17,8 @@ public class ServerWorkers implements TCPConnectionListener {
     private ArrayList<DataWorker> dataWorkers = new ArrayList<DataWorker>();
 
     public ServerWorkers() {
-        GetWorkers();
+        DataBase dataBase = Server.getDataBase();
+        dataWorkers = dataBase.GetWorkers();
         System.out.println("\tServerWorkers is running...");
         thread = new Thread(new Runnable() {
             @Override
@@ -64,17 +65,4 @@ public class ServerWorkers implements TCPConnectionListener {
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
     }
-
-    private void GetWorkers() {
-        dataWorkers.add(new DataWorker("Кондратюк Андрій", "Стоматолог", "200$", 1, DataWorker.getImage("img2.jpg")));
-        dataWorkers.add(new DataWorker());
-        dataWorkers.add(new DataWorker());
-        dataWorkers.add(new DataWorker());
-        dataWorkers.add(new DataWorker());
-        dataWorkers.add(new DataWorker());
-        dataWorkers.add(new DataWorker());
-        dataWorkers.add(new DataWorker());
-
-    }
-
 }

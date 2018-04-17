@@ -1,4 +1,4 @@
-package com.main.Data;
+package com.main.MyData;
 
 public class DataProfitLine {
     private int id;

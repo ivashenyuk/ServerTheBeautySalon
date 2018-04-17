@@ -1,19 +1,13 @@
-package com.main.Data;
+package com.main.MyData;
 
 import com.google.gson.Gson;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class DataWorker {
     private String nameWorker;
@@ -47,9 +41,9 @@ public class DataWorker {
     public DataWorker() {
         this.idButtonWorker = 1;
         if ((tmp % 2) == 0)
-            this.imgWorker = getImage("img.jpg");
+            this.imgWorker = getImage("Іванченко.jpg");
         else
-            this.imgWorker = getImage("img2.jpg");
+            this.imgWorker = getImage("Романченко.jpg");
         tmp++;
         this.kingOfServiceWorker = "Масаж";
         this.nameWorker = "Івашенюк Юрій";
@@ -61,13 +55,15 @@ public class DataWorker {
         this.kingOfServiceWorker = kingOfServiceWorker;
         this.priceWorker = priceWorker;
         this.idButtonWorker = idButtonWorker;
-        this.imgWorker = imgWorker;
+        this.imgWorker = getImage(imgWorker);
     }
 
     /*temporary function, delete her*/
     public static String getImage(String name) {
+        if(name == null)
+            return null;
         try {
-            String dirName = "E://" + name;
+            String dirName = "img/" + name;
             ByteArrayOutputStream baos = new ByteArrayOutputStream(1000);
             BufferedImage img = ImageIO.read(new File(dirName));
             ImageIO.write(img, "jpg", baos);

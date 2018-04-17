@@ -1,23 +1,28 @@
 package com.main;
 
-import com.google.gson.Gson;
+import com.main.MyData.DataBase;
 import com.main.OthersServer.*;
-import com.main.TCPConnection;
-import com.main.TCPConnectionListener;
 
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
 public class Server extends Thread implements TCPConnectionListener {
     private static final ArrayList<TCPConnection> connections = new ArrayList<TCPConnection>();
+    private ServerRestoration serverRestoration;
+    private ServerCheck serverCheck;
     private ServerLogin loginServer = null;
     private ServerWorkers workersServer;
     private ServerSchedule scheduleServer;
     private ServerProfit serverProfit;
     private ServerRegistration registrationServer;
+    private ServerOrders serverOrders;
+    private static DataBase dataBase;
 
     public Server() {
+        this.dataBase = new DataBase();
+
         System.out.println("Server is running...");
         Thread thread = new Thread(new Runnable() {
             @Override
@@ -48,6 +53,12 @@ public class Server extends Thread implements TCPConnectionListener {
             scheduleServer = new ServerSchedule();
         if (serverProfit == null)
             serverProfit = new ServerProfit();
+        if (serverCheck == null)
+            serverCheck = new ServerCheck();
+        if (serverOrders == null)
+            serverOrders = new ServerOrders();
+        if (serverRestoration == null)
+            serverRestoration = new ServerRestoration();
     }
 
     @Override
@@ -69,5 +80,9 @@ public class Server extends Thread implements TCPConnectionListener {
     @Override
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
+    }
+
+    public static DataBase getDataBase() {
+        return dataBase;
     }
 }

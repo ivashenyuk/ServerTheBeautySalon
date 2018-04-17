@@ -1,7 +1,9 @@
 package com.main.OthersServer;
 
 import com.google.gson.Gson;
-import com.main.Data.DataWorker;
+import com.main.MyData.DataBase;
+import com.main.MyData.DataWorker;
+import com.main.Server;
 import com.main.Setting;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
@@ -44,11 +46,10 @@ public class ServerRegistration implements TCPConnectionListener {
     public synchronized void onReceive(TCPConnection tcpConnection, String data) {
         System.out.println(data);
         String[] dataReg = new Gson().fromJson(data, String[].class);
-        if (!GetUserForEmail(dataReg[1])) {
-            //TODO: Write in DB!
-            ServerLogin.dataUser.password = dataReg[2];
-            ServerLogin.dataUser.emailUser = dataReg[1];
-            ServerLogin.dataUser.nameUser = dataReg[0];
+        DataBase dataBase = Server.getDataBase();
+        if (dataBase.GetUserForEmail(dataReg[1])) {
+            dataBase.addUser(dataReg[0], dataReg[1], dataReg[2], dataReg[3], "user");
+
             tcpConnection.Send("true");
         } else {
             tcpConnection.Send("false");
@@ -63,9 +64,5 @@ public class ServerRegistration implements TCPConnectionListener {
     @Override
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
-    }
-
-    private boolean GetUserForEmail(String email) {
-        return false;
     }
 }

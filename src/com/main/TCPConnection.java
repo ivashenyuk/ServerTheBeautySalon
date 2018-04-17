@@ -1,15 +1,5 @@
 package com.main;
 
-import com.google.gson.Gson;
-import com.main.Data.DataWorker;
-
-import javax.imageio.ImageIO;
-import javax.imageio.stream.ImageInputStream;
-import javax.imageio.stream.ImageOutputStream;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageProducer;
-import java.awt.image.RenderedImage;
 import java.io.*;
 import java.net.Socket;
 import java.net.SocketException;

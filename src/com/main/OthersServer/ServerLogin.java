@@ -1,13 +1,14 @@
 package com.main.OthersServer;
 
 import com.google.gson.Gson;
-import com.main.Data.DataUser;
+import com.main.MyData.DataBase;
+import com.main.MyData.DataUser;
+import com.main.Server;
 import com.main.Setting;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
 
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.net.ServerSocket;
 import java.util.ArrayList;
 
@@ -45,9 +46,9 @@ public class ServerLogin implements TCPConnectionListener {
     @Override
     public synchronized void onReceive(TCPConnection tcpConnection, String data) {
         try {
-            System.out.println(data);
             String[] dataUPE = new Gson().fromJson(data, String[].class);
-            if (dataUPE[0].equals(dataUser.getEmailUser()) && dataUPE[1].equals(dataUser.getPassword())) {
+            DataBase dataBase = Server.getDataBase();
+            if (!dataBase.CheckEmailAndPassword(dataUPE[0], dataUPE[1])) {
                 tcpConnection.Send(new Gson().toJson(dataUser));
                 tcpConnection.Send("true");
             }
@@ -66,14 +67,4 @@ public class ServerLogin implements TCPConnectionListener {
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
     }
-
-    private static void SendMsgAllClient(String enemy, int enemyOrUser) {
-
-    }
-
-    private static void SendMsgAllClientStep() {
-
-    }
-
-
 }

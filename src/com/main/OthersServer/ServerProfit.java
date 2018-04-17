@@ -1,8 +1,9 @@
 package com.main.OthersServer;
 
 import com.google.gson.Gson;
-import com.main.Data.DataProfitLine;
-import com.main.Data.DataScheduleLine;
+import com.main.MyData.DataBase;
+import com.main.MyData.DataProfitLine;
+import com.main.Server;
 import com.main.Setting;
 import com.main.TCPConnection;
 import com.main.TCPConnectionListener;
@@ -17,7 +18,8 @@ public class ServerProfit implements TCPConnectionListener{
     private ArrayList<DataProfitLine> listProfit = new ArrayList<DataProfitLine>();
 
     public ServerProfit() {
-        GetSchedule();
+        DataBase dataBase = Server.getDataBase();
+        listProfit = dataBase.GetProfit();
         System.out.println("\tServerProfit is running...");
         thread = new Thread(new Runnable() {
             @Override
@@ -59,12 +61,4 @@ public class ServerProfit implements TCPConnectionListener{
     public synchronized void onExeption(TCPConnection tcpConnection, Exception ex) {
         System.out.println("TCPConnection exeption: " + ex);
     }
-
-    private void GetSchedule() {
-        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
-        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
-        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
-        listProfit.add(new DataProfitLine(1, "Ivashenuik", "100", "30"));
-    }
-
 }

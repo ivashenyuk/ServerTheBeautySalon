@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ServerForTheBeautySalon:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="50155fb5-3b83-406e-9e02-0314aedbf43a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ServerForTheBeautySalon_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataOrderLine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerCheck.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerOrders.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerRestoration.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Data/DataUser.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Data/DataUser.class" />
+      <change beforePath="$PROJECT_DIR$/ServerForTheBeautySalon.iml" afterPath="$PROJECT_DIR$/ServerForTheBeautySalon.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Data/DataProfitLine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Data/DataScheduleLine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Data/DataUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Data/DataWorker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerLogin$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerLogin$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerLogin.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerLogin.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerProfit$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerProfit$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerProfit.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerProfit.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerRegistration$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerRegistration$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerRegistration.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerRegistration.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerSchedule$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerSchedule$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerSchedule.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerSchedule.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerWorkers$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerWorkers$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerWorkers.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/OthersServer/ServerWorkers.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Server$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Server$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Server.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Server.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Setting.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Setting.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/TCPConnection$1.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/TCPConnection$1.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/TCPConnection.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/TCPConnection.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/Data/DataUser.java" afterPath="$PROJECT_DIR$/src/com/main/Data/DataUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Data/DataProfitLine.java" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataProfitLine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Data/DataScheduleLine.java" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataScheduleLine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Data/DataUser.java" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Data/DataWorker.java" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataWorker.java" />
       <change beforePath="$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java" />
       <change beforePath="$PROJECT_DIR$/src/com/main/OthersServer/ServerProfit.java" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerProfit.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java" />
       <change beforePath="$PROJECT_DIR$/src/com/main/OthersServer/ServerSchedule.java" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerSchedule.java" />
       <change beforePath="$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java" afterPath="$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java" />
       <change beforePath="$PROJECT_DIR$/src/com/main/Server.java" afterPath="$PROJECT_DIR$/src/com/main/Server.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/main/Setting.java" afterPath="$PROJECT_DIR$/src/com/main/Setting.java" />
       <change beforePath="$PROJECT_DIR$/src/com/main/TCPConnection.java" afterPath="$PROJECT_DIR$/src/com/main/TCPConnection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,49 +58,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TheBeautySalon@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServerRegistration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+            <state relative-caret-position="80">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/main/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2162#2163#0" expanded="true" />
-                <element signature="e#2211#2212#0" expanded="true" />
-                <element signature="e#2431#2432#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
+                <element signature="e#2728#2729#0" expanded="true" />
+                <element signature="e#2777#2778#0" expanded="true" />
+                <element signature="e#2988#2989#0" expanded="true" />
+                <element signature="e#3019#3020#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerLogin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java">
+      <file leaf-file-name="TCPConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/main/TCPConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerWorkers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="50" column="87" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="87" />
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -87,6 +122,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\yurai\IdeaProjects\ServerForTheBeautySalon\src\com\main\Data</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -98,18 +141,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/main/Data/DataScheduleLine.java" />
-        <option value="$PROJECT_DIR$/src/com/main/Setting.java" />
-        <option value="$PROJECT_DIR$/src/com/main/Data/DataWorker.java" />
-        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerProfit.java" />
-        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerSchedule.java" />
-        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java" />
         <option value="$PROJECT_DIR$/src/com/main/TCPConnection.java" />
-        <option value="$PROJECT_DIR$/src/com/main/Data/DataUser.java" />
-        <option value="$PROJECT_DIR$/src/com/main/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Data/DataOrderLine.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Setting.java" />
         <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Data/DataUser.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerRestoration.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerCheck.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerOrders.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerProfit.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Data/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/com/main/OthersServer/ServerSchedule.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Data/DataWorker.java" />
+        <option value="$PROJECT_DIR$/src/com/main/Server.java" />
+        <option value="$PROJECT_DIR$/ServerForTheBeautySalon.iml" />
       </list>
     </option>
   </component>
@@ -120,9 +169,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="30" />
-    <option name="width" value="974" />
+    <option name="x" value="122" />
+    <option name="y" value="103" />
+    <option name="width" value="1455" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,46 +204,31 @@
               <item name="ServerForTheBeautySalon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ServerForTheBeautySalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerForTheBeautySalon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServerForTheBeautySalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerForTheBeautySalon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServerForTheBeautySalon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerForTheBeautySalon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="OthersServer" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForTheBeautySalon" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1714527" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.main.Data" />
       <recent name="com.main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yurai\IdeaProjects\ServerForTheBeautySalon\out\artifacts\ServerForTheBeautySalon_jar" />
       <recent name="C:\Users\yurai\IdeaProjects\ServerForTheBeautySalon\src\com\main" />
     </key>
   </component>
@@ -215,8 +251,8 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -306,19 +342,85 @@
       <workItem from="1523636216592" duration="2188000" />
       <workItem from="1523639915905" duration="1790000" />
       <workItem from="1523641727328" duration="1792000" />
-      <workItem from="1523643546466" duration="1112000" />
+      <workItem from="1523643546466" duration="1548000" />
+      <workItem from="1523645376610" duration="1669000" />
+      <workItem from="1523647180505" duration="1707000" />
+      <workItem from="1523704079146" duration="1750000" />
+      <workItem from="1523705862917" duration="1782000" />
+      <workItem from="1523707676700" duration="1193000" />
+      <workItem from="1523709525882" duration="1748000" />
+      <workItem from="1523711362183" duration="1686000" />
+      <workItem from="1523713255803" duration="825000" />
+      <workItem from="1523724824452" duration="1253000" />
+      <workItem from="1523726634885" duration="1692000" />
+      <workItem from="1523770311447" duration="970000" />
+      <workItem from="1523772122539" duration="1563000" />
+      <workItem from="1523773905279" duration="1882000" />
+      <workItem from="1523776554662" duration="687000" />
+      <workItem from="1523779857941" duration="1044000" />
+      <workItem from="1523781791300" duration="597000" />
+      <workItem from="1523783630268" duration="1272000" />
+      <workItem from="1523808868846" duration="1579000" />
+      <workItem from="1523810664834" duration="867000" />
+      <workItem from="1523812477293" duration="1131000" />
+      <workItem from="1523855796839" duration="1849000" />
+      <workItem from="1523857846148" duration="1005000" />
+      <workItem from="1523862093085" duration="1276000" />
+      <workItem from="1523863926219" duration="1827000" />
+      <workItem from="1523868404810" duration="2295000" />
+      <workItem from="1523870733660" duration="1191000" />
+      <workItem from="1523872575741" duration="1195000" />
+      <workItem from="1523878753936" duration="1783000" />
+      <workItem from="1523880566706" duration="1800000" />
+      <workItem from="1523882400627" duration="1809000" />
+      <workItem from="1523884249590" duration="1784000" />
+      <workItem from="1523886055077" duration="1946000" />
+      <workItem from="1523888083960" duration="1330000" />
+      <workItem from="1523889941423" duration="1775000" />
+      <workItem from="1523891824219" duration="1788000" />
+      <workItem from="1523893651032" duration="1789000" />
+      <workItem from="1523895461701" duration="1787000" />
+      <workItem from="1523897290560" duration="1800000" />
+      <workItem from="1523904886819" duration="1303000" />
+      <workItem from="1523910173630" duration="1434000" />
+      <workItem from="1523946092982" duration="1729000" />
+      <workItem from="1523947882466" duration="1881000" />
+      <workItem from="1523949973515" duration="1802000" />
+      <workItem from="1523952634865" duration="1777000" />
+      <workItem from="1523954454866" duration="1773000" />
+      <workItem from="1523956280167" duration="1872000" />
+      <workItem from="1523958217684" duration="1567000" />
+      <workItem from="1523964946391" duration="1000000" />
+      <workItem from="1523966775801" duration="1735000" />
+      <workItem from="1523968586194" duration="1808000" />
+      <workItem from="1523970535146" duration="1461000" />
+      <workItem from="1523972371364" duration="1787000" />
+      <workItem from="1523974180799" duration="1011000" />
+      <workItem from="1523975284697" duration="2003000" />
+      <workItem from="1523977312456" duration="1799000" />
+      <workItem from="1523979360299" duration="1332000" />
+      <workItem from="1523981887779" duration="1794000" />
+      <workItem from="1523983820038" duration="715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75454000" />
+    <option name="totallyTimeSpent" value="164399000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -326,12 +428,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29372936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40468583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17199148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16240682" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -382,116 +484,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/main/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/TCPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataProfitLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/TCPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataScheduleLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/TCPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="34" column="9" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,10 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,10 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="29" column="93" lean-forward="false" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="93" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="19" column="104" lean-forward="true" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,10 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="17" column="88" lean-forward="false" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,10 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#83#84#0" expanded="false" />
-            <element signature="e#111#112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -591,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,10 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="29" column="52" lean-forward="true" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1060">
           <caret line="61" column="0" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,10 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#83#84#0" expanded="false" />
-            <element signature="e#111#112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,10 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,10 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#83#84#0" expanded="false" />
-            <element signature="e#111#112#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,32 +662,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#83#84#0" expanded="false" />
-            <element signature="e#111#112#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataScheduleLine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataScheduleLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataProfitLine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataProfitLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -741,97 +683,257 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataOrderLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/main/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataWorker.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/73d66f3d-0bd1-4c2e-b57f-729a5a2dfbdd/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="51" column="2" lean-forward="false" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerProfit.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="85" lean-forward="false" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerSchedule.java">
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerRestoration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="43" column="85" lean-forward="false" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/TCPConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="43" column="65" lean-forward="false" selection-start-line="43" selection-start-column="65" selection-end-line="43" selection-end-column="65" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3495#3496#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="50" column="87" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Data/DataUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2211#2212#0" expanded="true" />
-            <element signature="e#2431#2432#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="56" column="74" lean-forward="false" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="135">
+          <caret line="52" column="61" lean-forward="false" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="196" column="41" lean-forward="true" selection-start-line="196" selection-start-column="41" selection-end-line="196" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/src.zip!/java/sql/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerWorkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="298" column="9" lean-forward="false" selection-start-line="298" selection-start-column="9" selection-end-line="298" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/OthersServer/ServerSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServerForTheBeautySalon.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2728#2729#0" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+            <element signature="e#3019#3020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/main/TCPConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ServerForTheBeautySalon:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1714527" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1714527" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1714527" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1714527" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ServerForTheBeautySalon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1714527" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>ServerForTheBeautySalon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1714527" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

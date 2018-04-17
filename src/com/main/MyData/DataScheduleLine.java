@@ -1,4 +1,4 @@
-package com.main.Data;
+package com.main.MyData;
 
 public class DataScheduleLine {
     private int _id;
