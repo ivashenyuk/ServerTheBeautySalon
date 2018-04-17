@@ -1,3 +1,3 @@
 # ServerTheBeautySalon
 Java
-Start project from IDE
+Start project from IDE IntelliJ idea
