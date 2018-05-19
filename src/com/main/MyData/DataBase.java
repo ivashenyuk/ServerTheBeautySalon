@@ -7,7 +7,13 @@ import java.util.ArrayList;
 
 public class DataBase {
     private static Connection con = null;
-    private static String URL = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;database=TheBeautySalon;integratedSecurity=true;";
+
+    // JDBC URL, username and password of MySQL server
+    private static final String url = "jdbc:mysql://localhost:3306/TheBeautySalon";
+    private static final String user = "root";
+    private static final String password = "";
+
+//    private static String URL = "jdbc:sqlserver://localhost\\SQLEXPRESS:1433;database=TheBeautySalon;integratedSecurity=true;";
     private static Statement st = null;
     private ArrayList<DataOrderLine> listOrders = new ArrayList<DataOrderLine>();
     private ArrayList<DataProfitLine> listProfit = new ArrayList<DataProfitLine>();
@@ -16,19 +22,15 @@ public class DataBase {
 
     public DataBase() {
         try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
             if (con == null)
-                con = DriverManager.getConnection(URL);
+                con = DriverManager.getConnection(url, user, password);
 
             if (con != null) System.out.println("Connection Successful!\n");
             if (con == null) return;
 
             st = con.createStatement();
-        } catch (ClassNotFoundException e) {
-            System.out.println("Connection failed!");
-            e.printStackTrace();
-        } catch (SQLException e) {
+        }  catch (SQLException e) {
             System.out.println("Connection failed!");
             e.printStackTrace();
         }
@@ -38,8 +40,8 @@ public class DataBase {
         boolean ret = false;
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Users_table] WHERE [dbo].[Users_table].[Email]='" + email +
-                            "' AND [dbo].[Users_table].[Password]='" + password + "'";
+                    "SELECT * FROM Users_table WHERE Users_table.Email='" + email +
+                            "' AND Users_table.Password='" + password + "'";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
@@ -65,7 +67,7 @@ public class DataBase {
 
     public void addUser(String nameUser, String email, String password, String secretCode, String status) {
         try {
-            String query = "INSERT INTO [dbo].[Users_table] ([Name] ,[Email] ,[Password] ,[SecretCode] ,[Status])" +
+            String query = "INSERT INTO Users_table (Name ,Email ,Password ,SecretCode ,Status)" +
                     "VALUES ('" + nameUser + "','" + email + "','" + password + "','" + secretCode + "','" + status + "')";
             st.execute(query);
 
@@ -82,7 +84,7 @@ public class DataBase {
         boolean ret = false;
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Users_table] WHERE [dbo].[Users_table].[Email]='" + email + "'";
+                    "SELECT * FROM Users_table WHERE Users_table.Email='" + email + "'";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
@@ -108,8 +110,8 @@ public class DataBase {
         System.out.println(secretCode);
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Users_table] WHERE [dbo].[Users_table].[Email]='" + email +
-                            "' AND [dbo].[Users_table].[SecretCode]='" + secretCode + "'";
+                    "SELECT * FROM Users_table WHERE Users_table.Email='" + email +
+                            "' AND Users_table.SecretCode='" + secretCode + "'";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
@@ -141,8 +143,8 @@ public class DataBase {
 //                    user.getStatusUser() + "')";
 
 
-            String query = "UPDATE [dbo].[Users_table] SET [Password] = '" + password + "'" +
-                    "WHERE [dbo].[Users_table].[Email]='" + user.getEmailUser() + "' AND [dbo].[Users_table].[SecretCode]='" + user.getSecretCode() + "'";
+            String query = "UPDATE Users_table SET Password = '" + password + "'" +
+                    "WHERE Users_table.Email='" + user.getEmailUser() + "' AND Users_table.SecretCode='" + user.getSecretCode() + "'";
             st.execute(query);
 
             //if (rs != null) rs.close();
@@ -214,7 +216,7 @@ public class DataBase {
     public ArrayList<DataOrderLine> GetOrder() {
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Orders_table]";
+                    "SELECT * FROM Orders_table";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
@@ -238,7 +240,7 @@ public class DataBase {
     public ArrayList<DataProfitLine> GetProfit() {
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Profit_table]";
+                    "SELECT * FROM Profit_table";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
@@ -257,7 +259,7 @@ public class DataBase {
     public ArrayList<DataWorker> GetWorkers() {
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Performers_table]";
+                    "SELECT * FROM Performers_table";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
@@ -280,7 +282,7 @@ public class DataBase {
     public ArrayList<DataScheduleLine> GetSchedule() {
         try {
             String queryGetNumberOfTimes =
-                    "SELECT * FROM [dbo].[Schedule_table]";
+                    "SELECT * FROM Schedule_table";
             ResultSet rs = st.executeQuery(queryGetNumberOfTimes);
 
             while (rs.next()) {
