@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50155fb5-3b83-406e-9e02-0314aedbf43a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mysql-connector-java-5.1.23-bin.jar" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ServerForTheBeautySalon.iml" afterPath="$PROJECT_DIR$/ServerForTheBeautySalon.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerForTheBeautySalon_jar/ServerForTheBeautySalon.jar" afterPath="$PROJECT_DIR$/out/artifacts/ServerForTheBeautySalon_jar/ServerForTheBeautySalon.jar" />
-      <change beforePath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/MyData/DataBase.class" afterPath="$PROJECT_DIR$/out/production/ServerForTheBeautySalon/com/main/MyData/DataBase.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/MyData/DataBase.java" afterPath="$PROJECT_DIR$/src/com/main/MyData/DataBase.java" />
-    </list>
+    <list default="true" id="50155fb5-3b83-406e-9e02-0314aedbf43a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+              <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
               <folding>
                 <element signature="e#651#666#0" expanded="true" />
                 <element signature="e#734#750#0" expanded="true" />
@@ -524,12 +517,12 @@
       <workItem from="1524576146149" duration="1214000" />
       <workItem from="1524582728717" duration="2101000" />
       <workItem from="1524585552704" duration="2210000" />
-      <workItem from="1526725706002" duration="1113000" />
+      <workItem from="1526725706002" duration="1330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186410000" />
+    <option name="totallyTimeSpent" value="186627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,7 +546,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29291844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29291844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1146,7 +1139,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/main/MyData/DataBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding>
             <element signature="e#651#666#0" expanded="true" />
             <element signature="e#734#750#0" expanded="true" />
